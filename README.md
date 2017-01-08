@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/npm/v/lighter-vm.svg)](//www.npmjs.com/package/lighter-vm)
 [![Downloads](https://img.shields.io/npm/dm/lighter-vm.svg)](//www.npmjs.com/package/lighter-vm)
 [![Build](https://img.shields.io/travis/lighterio/lighter-vm.svg)](//travis-ci.org/lighterio/lighter-vm)
-[![Coverage](https://img.shields.io/coveralls/lighterio/lighter-vm/master.svg)](//coveralls.io/r/lighterio/lighter-vm)
+[![Coverage](https://img.shields.io/codecov/c/github/lighterio/lighter-vm/master.svg)](//codecov.io/gh/lighterio/lighter-vm)
 [![Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](//www.npmjs.com/package/standard)
 
 The `lighter-vm` module is a lightweight virtual machine code-running utility.
