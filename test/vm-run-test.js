@@ -19,11 +19,13 @@ describe('vm.run', function () {
   })
 
   it('throws errors', function () {
+    var error
     try {
       vm.run('a b c')
       is.fail()
     } catch (e) {
-      is.error(e)
+      error = e
     }
+    is.object(error)
   })
 })
