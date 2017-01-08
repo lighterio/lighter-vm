@@ -1,35 +1,52 @@
 {
-  "name": "lighter-vm-run",
-  "version": "0.0.1",
+  "name": "lighter-vm",
+  "version": "1.0.0",
   "description": "A lightweight JavaScript virtual machine code-running utility.",
   "dependencies": {
-    "lighter-process-cache": ">=0.0.1"
+    "lighter-lru-cache": "^1.1.0"
   },
   "devDependencies": {
-    "exam": ">=0.3.5"
+    "exam": "^1.4.5"
   },
+  "bundledDependencies": [],
   "keywords": [
     "lighter",
+    "vm",
+    "runInNewContext",
+    "virtual",
+    "machine",
+    "run",
+    "code",
+    "runner",
+    "source",
+    "exec",
+    "eval",
+    "context",
+    "utility",
     "fast",
     "lightweight",
-    "minimal"
+    "minimal",
+    "benchmark",
+    "speed",
+    "ops"
   ],
-  "main": "lighter-vm-run.js",
+  "main": "lighter-vm.js",
   "engines": {
-    "node": ">=0.2.6"
+    "node": ">=0.10"
   },
   "scripts": {
     "test": "./node_modules/exam/exam.js",
     "cover": "./node_modules/exam/exam-cover.js",
     "report": "open coverage/lcov-report/index.html",
-    "coveralls": "./node_modules/exam/exam-coveralls.js"
+    "coveralls": "./node_modules/exam/exam-coveralls.js",
+    "bench": "./node_modules/exam/exam.js test/bench"
   },
-  "repository": "https://github.com/lighterio/lighter-vm-run.git",
-  "bugs": "https://github.com/lighterio/lighter-vm-run/issues",
-  "homepage": "https://github.com/lighterio/lighter-vm-run",
+  "repository": "https://github.com/lighterio/lighter-vm.git",
+  "bugs": "https://github.com/lighterio/lighter-vm/issues",
+  "homepage": "https://github.com/lighterio/lighter-vm",
   "author": "Sam Eubank <sameubank@gmail.com>",
   "contributors": [
     "Sam Eubank <sameubank@gmail.com>"
   ],
-  "license": "MIT"
+  "license": "ISC"
 }
